@@ -2,6 +2,7 @@ import React from 'react';
 import project1 from "../assets/Toyota.png"
 import project2 from "../assets/Calculator.png"
 import project3 from "../assets/To-Do.png"
+import project4 from "../assets/Elite-Cars.png"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -31,6 +32,15 @@ const projects = [
       links: {
         site: "https://aseel-alqhaiwi.github.io/Project-ToDo/",
         github: "https://github.com/Aseel-Alqhaiwi/Project-ToDo",
+      },
+    },
+    {
+      img: project4,
+      title: "Project #4",
+      description: "Elite Cars Marketplace",
+      links: {
+        site: "http://aseel-alqhaiwi.wuaze.com/?i=2",
+        github: "https://github.com/Aseel-Alqhaiwi/Elite-Car",
       },
     },
   ]
