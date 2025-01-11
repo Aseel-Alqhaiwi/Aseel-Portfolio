@@ -6,7 +6,7 @@ import {
   DiBootstrap,
   DiJavascript1,
   DiReact,
-  DiGitBadge,
+  DiGit,
   DiPhp,
   DiMysql,
   DiPython,
@@ -35,7 +35,7 @@ const skills = [
         { name: 'MySQL', icon: <DiMysql className='text-orange-600' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'Python', icon: <DiPython className='text-blue-500' /> },
-        { name: 'Git', icon: <DiGitBadge className='text-orange-600' /> },
+        { name: 'Git', icon: <DiGit className='text-orange-600' /> },
       ],
     },
   ]
