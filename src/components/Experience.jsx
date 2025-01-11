@@ -5,12 +5,12 @@ import Reveal from './Reveal'
 const experiences = [
     {
         company: 'Galaxy Organization',
-        period: '2024 Oct - Present',
+        period: '2024 Dec - Present',
         description: 'Currently participating in an internship with Galaxy Organization, focused on Cloud Computing and Artificial Intelligence using Alibaba Cloud technologies. This role involves gaining hands-on experience with cloud infrastructure, machine learning, and AI-driven solutions. My primary objectives are to build a strong foundation in cloud services, enhance my knowledge of AI integration within cloud environments, and apply these technologies to practical, real-world scenarios. This experience is equipping me with valuable skills for future projects in cloud computing and AI innovation.',
       },
       {
         company: 'SHAI for AI',
-        period: '2024 Aug - 2024 Oct',
+        period: '2024 Sep - 2024 Nov',
         description: 'As a Full Stack Development internship at SHAI for AI, I am participating in a comprehensive training program focused on web development and AI integration. This course equips me with skills in front-end technologies like HTML5, CSS, JavaScript, and React, along with back-end tools such as PHP, Laravel, and SQL. Additionally, I am learning how to integrate AI functionalities using GPT and other AI APIs, enabling me to build advanced, scalable web applications with AI capabilities.',
       },
       {
