@@ -4,8 +4,13 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
+        company: 'Vision Dimension',
+        period: '2025 Mar - Present',
+        description: 'Led strategic project pitching sessions, clearly articulating business value and technical roadmaps. Developed and presented Proof of Concepts (PoCs) for new and complex technological ideas, and authored high-quality documentation including comprehensive Requests for Proposals (RFPs) and detailed User Guides. Contributed to Business Process Reengineering (BPR) initiatives to optimize workflows and improve operational efficiency, conducted thorough User Acceptance Testing (UAT) to ensure solutions met defined business requirements, and served as a Research Assistant specializing in the analysis and application of emerging technologies.',
+      },
+      {
         company: 'Galaxy Organization',
-        period: '2024 Dec - Present',
+        period: '2024 Dec - 2025 Jul',
         description: 'Currently participating in an internship with Galaxy Organization, focused on Cloud Computing and Artificial Intelligence using Alibaba Cloud technologies. This role involves gaining hands-on experience with cloud infrastructure, machine learning, and AI-driven solutions. My primary objectives are to build a strong foundation in cloud services, enhance my knowledge of AI integration within cloud environments, and apply these technologies to practical, real-world scenarios. This experience is equipping me with valuable skills for future projects in cloud computing and AI innovation.',
       },
       {

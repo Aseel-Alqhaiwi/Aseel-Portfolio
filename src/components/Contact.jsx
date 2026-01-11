@@ -12,7 +12,7 @@ const Contact = () => {
             <div className="text-gray-300 my-3">
               <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                As a passionate Software Engineering graduate with a growing focus on full-stack development and AI, I am committed to building scalable, innovative web solutions. My current internship at SHAI for AI allows me to integrate both front-end and back-end technologies, while also exploring the exciting potential of artificial intelligence in web development. With hands-on experience in HTML, CSS, JavaScript, PHP, and AI tools like GPT, I am driven to continuously enhance my skills and contribute to impactful projects. I thrive in dynamic environments where learning and applying new technologies is key to success.
+                As a Software Engineering graduate with a strong interest in digital transformation and emerging technologies, I am committed to delivering structured, high-quality technical and business solutions. Through my current role as a Digital Transformation Consultant and my hands-on experience in cloud computing and AI, I have contributed to Business Process Reengineering (BPR), User Acceptance Testing (UAT), Proof of Concept (PoC) development, and professional technical documentation. With foundational expertise in AWS and Alibaba Cloud and a consulting-driven mindset, I continuously seek to enhance my skills and add value in dynamic, fast-paced environments where innovation and clarity are essential.
               </p>
             </div>
 

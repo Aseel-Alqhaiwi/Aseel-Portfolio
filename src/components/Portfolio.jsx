@@ -2,7 +2,8 @@ import React from 'react';
 import project1 from "../assets/Toyota.png"
 import project2 from "../assets/Calculator.png"
 import project3 from "../assets/To-Do.png"
-import project4 from "../assets/Elite-Cars.png"
+import project4 from "../assets/Arch.png"
+import project5 from "../assets/Elite-Cars.png"
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 import Reveal from './Reveal';
 
@@ -35,12 +36,20 @@ const projects = [
       },
     },
     {
-      img: project4,
+      img: project5,
       title: "Project #4",
       description: "Elite Cars Marketplace",
       links: {
         site: "http://aseel-alqhaiwi.wuaze.com/?i=2",
         github: "https://github.com/Aseel-Alqhaiwi/Elite-Car",
+      },
+    },
+    {
+      img: project4,
+      title: "Project #5",
+      description: "Architectural Cubism",
+      links: {
+        site: "http://cubexsa.com/",
       },
     },
   ]
@@ -69,11 +78,13 @@ const Portfolio = () => {
                                         transition duration-300' target='_blank'>
                             View Site
                         </a>
-                        <a href={project.links.github}
-                            className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
-                                        transition duration-300' target='_blank'>
-                            <AiOutlineGithub/>
-                        </a>
+                        {project.links.github && (
+                            <a href={project.links.github}
+                                className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700
+                                            transition duration-300' target='_blank'>
+                                <AiOutlineGithub/>
+                            </a>
+                        )}
 
                     </div>
 

@@ -1,16 +1,12 @@
-import React from "react"
 
 import {
-  DiHtml5,
-  DiCss3,
-  DiBootstrap,
-  DiJavascript1,
   DiReact,
   DiGit,
   DiPhp,
   DiMysql,
   DiPython,
 } from "react-icons/di"
+import { SiAmazonwebservices, SiMicrosoftazure, SiAlibabacloud } from "react-icons/si"
 
 
 import Reveal from "./Reveal"
@@ -19,13 +15,11 @@ import { Link } from 'react-scroll'
 
 const skills = [
     {
-      category: 'Frontend',
+      category: 'Cloud Engineer',
       technologies: [
-        { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
-        { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
-        { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
-        { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
-        { name: 'React', icon: <DiReact className='text-blue-500' /> },
+        { name: 'AWS', icon: <SiAmazonwebservices className='text-orange-500' /> },
+        { name: 'Azure', icon: <SiMicrosoftazure className='text-blue-500' /> },
+        { name: 'Alibaba Cloud', icon: <SiAlibabacloud className='text-orange-600' /> },
       ],
     },
     {
@@ -72,3 +66,5 @@ const Skills = () => {
 }
 
 export default Skills
+
+

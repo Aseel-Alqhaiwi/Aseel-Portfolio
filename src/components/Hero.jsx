@@ -1,10 +1,10 @@
-import React from "react";
 import profilepic from "../assets/Aseel.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
   AiOutlineGithub,
   AiOutlineDiscord,
+  // eslint-disable-next-line no-unused-vars
   AiOutlineLink,
   AiOutlineLinkedin,
 } from "react-icons/ai";
@@ -12,7 +12,6 @@ import {
   DiCss3,
   DiHtml5,
   DiJavascript1,
-  DiNodejsSmall,
   DiReact,
   DiPhp
 } from "react-icons/di";
